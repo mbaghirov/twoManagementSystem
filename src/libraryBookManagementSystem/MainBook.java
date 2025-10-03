@@ -1,16 +1,15 @@
 package libraryBookManagementSystem;
 
-import java.awt.*;
 import java.util.Scanner;
 
 public class MainBook {
-    public static void main(String[] args) {
+    public void run() {
         Scanner sc = new Scanner(System.in);
         Book bookOne = new Book();
 
         int choice = 0;
 
-        while(choice != 4){
+        while (choice != 4) {
             System.out.println("""
                     \n--- MENU --- 
                     1 - Book add
@@ -22,7 +21,7 @@ public class MainBook {
             choice = sc.nextInt();
             sc.nextLine();
 
-            switch (choice){
+            switch (choice) {
                 case 1:
                     bookOne.inputBook();
                     break;
@@ -35,11 +34,13 @@ public class MainBook {
                 case 4:
                     System.out.println("Exit program");
                     break;
-                default:{
+                default: {
                     System.out.println("Please, right enter your choice. Try again");
                 }
             }
         }
 
     }
+
+
 }

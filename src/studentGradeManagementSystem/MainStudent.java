@@ -1,9 +1,9 @@
-package studentGrademanagementSystem;
+package studentGradeManagementSystem;
 
 import java.util.Scanner;
 
 public class MainStudent {
-    public static void main(String[] args) {
+    public void run() {
         Scanner sc = new Scanner(System.in);
         Student studentOne = new Student();
         int choice = 0;
