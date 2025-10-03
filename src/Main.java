@@ -3,7 +3,7 @@ import studentGradeManagementSystem.MainStudent;
 
 import java.util.Scanner;
 
-public class Main{
+public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -15,7 +15,7 @@ public class Main{
         sc.nextLine();
 
 
-        switch (choice){
+        switch (choice) {
             case 1:
                 MainBook project_1 = new MainBook();
                 project_1.run();
