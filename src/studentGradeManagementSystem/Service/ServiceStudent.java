@@ -5,8 +5,8 @@ import studentGradeManagementSystem.Model.ModelStudent;
 
 public class ServiceStudent {
 
-    ModelStudent[] modelStudent = new ModelStudent[100];
-    int count = 0;
+    static ModelStudent[] modelStudent = new ModelStudent[100];
+    static int count = 0;
 
     Util input = new Util();
 
