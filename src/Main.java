@@ -18,11 +18,11 @@ public class Main {
         switch (choice) {
             case 1:
                 MainBook project_1 = new MainBook();
-                project_1.run();
+                project_1.mainBook();
                 break;
             case 2:
                 MainStudent project_2 = new MainStudent();
-                project_2.run();
+                project_2.mainStudent();
                 break;
             default:
                 System.err.println("Please, right enter your choice. Try again!");
