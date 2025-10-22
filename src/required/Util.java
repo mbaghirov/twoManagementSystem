@@ -23,6 +23,6 @@ import java.util.Scanner;
 
 
      public void showReturnToMenuText() {
-         this.requiredText("\nPlease, press Enter to return to menu");
+         this.requiredText("\nPlease select one of the options to return to the menu. ");
      }
  }
